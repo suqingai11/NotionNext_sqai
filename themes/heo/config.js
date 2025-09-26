@@ -13,9 +13,9 @@ const CONFIG = {
   ],
 
   // 英雄区左右侧组件颠倒位置
-  HEO_HERO_REVERSE: false,
+  HEO_HERO_REVERSE: true,
   // 博客主体区左右侧组件颠倒位置
-  HEO_HERO_BODY_REVERSE: false,
+  HEO_HERO_BODY_REVERSE: true,
 
   // 英雄区(首页顶部大卡)
   HEO_HERO_TITLE_1: 'AI创作',
@@ -23,9 +23,9 @@ const CONFIG = {
   HEO_HERO_TITLE_3: 'TANGLY1024.COM',
   HEO_HERO_TITLE_4: '爆款模型推荐',
   HEO_HERO_TITLE_5: '未设定',
-  //HEO_HERO_TITLE_LINK: 'https://tangly1024.com',
+  HEO_HERO_TITLE_LINK: 'https://tangly1024.com',
   // 英雄区遮罩文字
-  //HEO_HERO_COVER_TITLE: '随便逛逛',
+  HEO_HERO_COVER_TITLE: '随便逛逛',
 
   // 英雄区显示三个置顶分类
   HEO_HERO_CATEGORY_1: { title: '精选模型', url: '/tag/精选模型' },
@@ -48,13 +48,13 @@ const CONFIG = {
     '🧱 团队小组发动机'
   ],
 
-  // 个人资料底部按钮
-  // HEO_INFO_CARD_URL1: '/about',
-  // HEO_INFO_CARD_ICON1: 'fas fa-user',
-  // HEO_INFO_CARD_URL2: 'https://github.com/tangly1024',
-  // HEO_INFO_CARD_ICON2: 'fab fa-github',
-  //HEO_INFO_CARD_URL3: 'https://www.tangly1024.com',
-  //HEO_INFO_CARD_TEXT3: '了解更多',
+  个人资料底部按钮
+  HEO_INFO_CARD_URL1: '/about',
+  HEO_INFO_CARD_ICON1: 'fas fa-user',
+  HEO_INFO_CARD_URL2: 'https://github.com/tangly1024',
+  HEO_INFO_CARD_ICON2: 'fab fa-github',
+  HEO_INFO_CARD_URL3: 'https://www.tangly1024.com',
+  HEO_INFO_CARD_TEXT3: '了解更多',
 
   // 用户技能图标
   HEO_GROUP_ICONS: [
